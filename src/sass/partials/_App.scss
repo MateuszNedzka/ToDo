@@ -1,0 +1,63 @@
+/*App style*/
+
+#app {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  div {
+    h2 {
+      border: 1px solid black;
+      color: #ff6600;
+    }
+    p:first-of-type{
+      height: 50px;
+      width: 300px;
+      padding: 5px;
+      background: #e5e5e5;
+      border: 2px solid red;
+      border-radius: 25%;
+      color: red;
+      font-size: 30px;
+    }
+    input{
+      height: 30px;
+      width: 250px;
+      margin: 25px 0;
+      padding-left: 5px;
+      border: 2px solid #ff6600;
+      &::placeholder{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    button{
+      &:first-of-type {
+        height: 30px;
+        width: 30px;
+        margin-left: 5px;
+        background: white;
+        border: 2px solid red;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    ul{
+      li{
+        height: 25px;
+        width: 293px;
+        margin: 8px 0;
+        list-style: square;
+        text-align: left;
+      }
+      button{
+        float: right;
+      }
+    }
+  }
+}

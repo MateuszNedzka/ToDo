@@ -1,0 +1,65 @@
+/*Basic CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*App style*/
+#app {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+  #app div h2 {
+    border: 1px solid black;
+    color: #ff6600; }
+  #app div p:first-of-type {
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    background: #e5e5e5;
+    border: 2px solid red;
+    border-radius: 25%;
+    color: red;
+    font-size: 30px; }
+  #app div input {
+    height: 30px;
+    width: 250px;
+    margin: 25px 0;
+    padding-left: 5px;
+    border: 2px solid #ff6600; }
+    #app div input::placeholder {
+      color: black;
+      font-size: 16px;
+      font-weight: 500; }
+  #app div button:first-of-type {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    background: white;
+    border: 2px solid red;
+    font-size: 20px;
+    font-weight: 600; }
+  #app div ul li {
+    height: 25px;
+    width: 293px;
+    margin: 8px 0;
+    list-style: square;
+    text-align: left; }
+  #app div ul button {
+    float: right; }
+
+h1 {
+  height: 50px;
+  width: 450px;
+  margin: 0 auto;
+  background: #333;
+  border: 5px solid #e5e5e5;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center; }
